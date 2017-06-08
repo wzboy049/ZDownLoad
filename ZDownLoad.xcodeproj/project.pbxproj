@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85C40EF01EE8E87D0031FC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40EEF1EE8E87D0031FC06 /* AppDelegate.swift */; };
+		85C40EF21EE8E87D0031FC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40EF11EE8E87D0031FC06 /* ViewController.swift */; };
+		85C40EF51EE8E87D0031FC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C40EF31EE8E87D0031FC06 /* Main.storyboard */; };
+		85C40EF71EE8E87D0031FC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C40EF61EE8E87D0031FC06 /* Assets.xcassets */; };
+		85C40EFA1EE8E87D0031FC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C40EF81EE8E87D0031FC06 /* LaunchScreen.storyboard */; };
+		85C40F0C1EE9464D0031FC06 /* ZDownLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40F091EE9464D0031FC06 /* ZDownLoader.swift */; };
+		85C40F0D1EE9464D0031FC06 /* ZDownLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40F0A1EE9464D0031FC06 /* ZDownLoaderManager.swift */; };
+		85C40F0E1EE9464D0031FC06 /* ZFileTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40F0B1EE9464D0031FC06 /* ZFileTool.swift */; };
+		85C40F101EE947710031FC06 /* DCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40F0F1EE947710031FC06 /* DCircleProgress.swift */; };
+		85C40F121EE947D40031FC06 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C40F111EE947D40031FC06 /* UIView+AutoLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85C40EEC1EE8E87D0031FC06 /* ZDownLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDownLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C40EEF1EE8E87D0031FC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85C40EF11EE8E87D0031FC06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85C40EF41EE8E87D0031FC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85C40EF61EE8E87D0031FC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85C40EF91EE8E87D0031FC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C40EFB1EE8E87D0031FC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C40F031EE8E8C50031FC06 /* ZDownLoad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZDownLoad-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		85C40F091EE9464D0031FC06 /* ZDownLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDownLoader.swift; sourceTree = "<group>"; };
+		85C40F0A1EE9464D0031FC06 /* ZDownLoaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDownLoaderManager.swift; sourceTree = "<group>"; };
+		85C40F0B1EE9464D0031FC06 /* ZFileTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFileTool.swift; sourceTree = "<group>"; };
+		85C40F0F1EE947710031FC06 /* DCircleProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DCircleProgress.swift; path = ZDownLoadManager/DCircleProgress.swift; sourceTree = "<group>"; };
+		85C40F111EE947D40031FC06 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C40EE91EE8E87D0031FC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85C40EE31EE8E87D0031FC06 = {
+			isa = PBXGroup;
+			children = (
+				85C40EEE1EE8E87D0031FC06 /* ZDownLoad */,
+				85C40EED1EE8E87D0031FC06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85C40EED1EE8E87D0031FC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C40EEC1EE8E87D0031FC06 /* ZDownLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C40EEE1EE8E87D0031FC06 /* ZDownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				85C40F111EE947D40031FC06 /* UIView+AutoLayout.swift */,
+				85C40F0F1EE947710031FC06 /* DCircleProgress.swift */,
+				85C40F081EE9464D0031FC06 /* ZDownLoadManager */,
+				85C40F031EE8E8C50031FC06 /* ZDownLoad-Bridging-Header.h */,
+				85C40EEF1EE8E87D0031FC06 /* AppDelegate.swift */,
+				85C40EF11EE8E87D0031FC06 /* ViewController.swift */,
+				85C40EF31EE8E87D0031FC06 /* Main.storyboard */,
+				85C40EF61EE8E87D0031FC06 /* Assets.xcassets */,
+				85C40EF81EE8E87D0031FC06 /* LaunchScreen.storyboard */,
+				85C40EFB1EE8E87D0031FC06 /* Info.plist */,
+			);
+			path = ZDownLoad;
+			sourceTree = "<group>";
+		};
+		85C40F081EE9464D0031FC06 /* ZDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				85C40F091EE9464D0031FC06 /* ZDownLoader.swift */,
+				85C40F0A1EE9464D0031FC06 /* ZDownLoaderManager.swift */,
+				85C40F0B1EE9464D0031FC06 /* ZFileTool.swift */,
+			);
+			path = ZDownLoadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C40EEB1EE8E87D0031FC06 /* ZDownLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C40EFE1EE8E87D0031FC06 /* Build configuration list for PBXNativeTarget "ZDownLoad" */;
+			buildPhases = (
+				85C40EE81EE8E87D0031FC06 /* Sources */,
+				85C40EE91EE8E87D0031FC06 /* Frameworks */,
+				85C40EEA1EE8E87D0031FC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDownLoad;
+			productName = ZDownLoad;
+			productReference = 85C40EEC1EE8E87D0031FC06 /* ZDownLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C40EE41EE8E87D0031FC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wzboy;
+				TargetAttributes = {
+					85C40EEB1EE8E87D0031FC06 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EWNXZREL2L;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 85C40EE71EE8E87D0031FC06 /* Build configuration list for PBXProject "ZDownLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85C40EE31EE8E87D0031FC06;
+			productRefGroup = 85C40EED1EE8E87D0031FC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C40EEB1EE8E87D0031FC06 /* ZDownLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C40EEA1EE8E87D0031FC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C40EFA1EE8E87D0031FC06 /* LaunchScreen.storyboard in Resources */,
+				85C40EF71EE8E87D0031FC06 /* Assets.xcassets in Resources */,
+				85C40EF51EE8E87D0031FC06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C40EE81EE8E87D0031FC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C40F0C1EE9464D0031FC06 /* ZDownLoader.swift in Sources */,
+				85C40EF21EE8E87D0031FC06 /* ViewController.swift in Sources */,
+				85C40EF01EE8E87D0031FC06 /* AppDelegate.swift in Sources */,
+				85C40F121EE947D40031FC06 /* UIView+AutoLayout.swift in Sources */,
+				85C40F0E1EE9464D0031FC06 /* ZFileTool.swift in Sources */,
+				85C40F0D1EE9464D0031FC06 /* ZDownLoaderManager.swift in Sources */,
+				85C40F101EE947710031FC06 /* DCircleProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85C40EF31EE8E87D0031FC06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C40EF41EE8E87D0031FC06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85C40EF81EE8E87D0031FC06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C40EF91EE8E87D0031FC06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C40EFC1EE8E87D0031FC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85C40EFD1EE8E87D0031FC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C40EFF1EE8E87D0031FC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EWNXZREL2L;
+				INFOPLIST_FILE = ZDownLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbzbx.ZDownLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZDownLoad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85C40F001EE8E87D0031FC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EWNXZREL2L;
+				INFOPLIST_FILE = ZDownLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbzbx.ZDownLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZDownLoad-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C40EE71EE8E87D0031FC06 /* Build configuration list for PBXProject "ZDownLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C40EFC1EE8E87D0031FC06 /* Debug */,
+				85C40EFD1EE8E87D0031FC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C40EFE1EE8E87D0031FC06 /* Build configuration list for PBXNativeTarget "ZDownLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C40EFF1EE8E87D0031FC06 /* Debug */,
+				85C40F001EE8E87D0031FC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C40EE41EE8E87D0031FC06 /* Project object */;
+}
